@@ -1,0 +1,8 @@
+# FOS\UserBundle configuration
+fos_user:
+    db_driver: orm
+    firewall_name: main
+    user_class: AppBundle\Entity\User
+    from_email:
+        address: "amine.betari@gmail.com"
+        sender_name: "BAS Postman"

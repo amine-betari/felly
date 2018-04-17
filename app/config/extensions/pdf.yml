@@ -1,0 +1,7 @@
+# Config PDF
+knp_snappy:
+    pdf:
+        enabled: true
+        binary: /usr/local/bin/wkhtmltopdf
+        options:
+           margin-top: 2mm
